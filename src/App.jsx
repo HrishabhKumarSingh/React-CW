@@ -35,14 +35,18 @@
 // }
 // export default App;
 
-import Contexts from "./Contexts";
+import Custom from "./Custom";
+
 const App = () => {
-  
   return (
     <>
       <h1>My New React App</h1>
       <p>Welcome to my new webpage.</p>
-      <Contexts />
+      {/* <Contexts /> */}
+      {/* <Memo /> */}
+      {/* <Callback /> */}
+      <Custom />
+
     </>
   );
 };

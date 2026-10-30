@@ -1,15 +1,15 @@
 import { useContext } from "react";
-import { UserContext } from "./UserContext";
+import { UserContext } from "./userContext";
 
 const A = () => {
-    const { count, setCount } = useContext(UserContext);
+  const data = useContext(UserContext);
 
-    return (
-        <div>
-            <h1>This is A component</h1>
-            <h2 onClick={() => setCount(count + 1)}>{count}</h2>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1>A component</h1>
+      <h1>This is our A component: {data}</h1>
+    </div>
+  );
+};
 
 export default A;
