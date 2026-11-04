@@ -35,8 +35,8 @@
 // }
 // export default App;
 
-import Custom from "./Custom";
-
+//import Custom from "./Custom";
+import Forms from "./Forms";
 const App = () => {
   return (
     <>
@@ -45,8 +45,8 @@ const App = () => {
       {/* <Contexts /> */}
       {/* <Memo /> */}
       {/* <Callback /> */}
-      <Custom />
-
+      {/* //<Custom /> */}
+      <Forms />
     </>
   );
 };
