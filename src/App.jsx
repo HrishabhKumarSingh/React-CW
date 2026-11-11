@@ -37,6 +37,7 @@
 
 //import Custom from "./Custom";
 import Forms from "./Forms";
+import Zodval from "./ZodVal";
 const App = () => {
   return (
     <>
@@ -46,7 +47,8 @@ const App = () => {
       {/* <Memo /> */}
       {/* <Callback /> */}
       {/* //<Custom /> */}
-      <Forms />
+      {/* <Forms /> */}
+      <Zodval />
     </>
   );
 };
