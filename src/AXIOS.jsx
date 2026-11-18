@@ -25,5 +25,4 @@ const AXIOS = () => {
         </div>
     )
 }
-
 export default AXIOS;

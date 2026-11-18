@@ -39,7 +39,8 @@
 // import FetchApi from "./FetchApi";
 // import Forms from "./Forms";
 // import Zodval from "./ZodVal";
-import AXIOS from "./AXIOS";
+// import AXIOS from "./AXIOS";
+import Loading from "./Loading";
 const App = () => {
   return (
     <>
@@ -52,7 +53,8 @@ const App = () => {
       {/* <Forms /> */}
       {/* <Zodval /> */}
       {/* <FetchApi /> */}
-      <AXIOS />
+      {/* <AXIOS /> */}
+      <Loading />
     </>
   );
 };
