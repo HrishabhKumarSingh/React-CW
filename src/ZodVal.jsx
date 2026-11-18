@@ -8,7 +8,6 @@ const formSchema = z.object({
 });
 
 const ZodVal = () => {
-
     const [form, setForm] = useState({
         name: "",
         email: "",

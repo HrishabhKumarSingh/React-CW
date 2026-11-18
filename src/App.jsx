@@ -36,8 +36,10 @@
 // export default App;
 
 //import Custom from "./Custom";
-import Forms from "./Forms";
-import Zodval from "./ZodVal";
+// import FetchApi from "./FetchApi";
+// import Forms from "./Forms";
+// import Zodval from "./ZodVal";
+import AXIOS from "./AXIOS";
 const App = () => {
   return (
     <>
@@ -48,7 +50,9 @@ const App = () => {
       {/* <Callback /> */}
       {/* //<Custom /> */}
       {/* <Forms /> */}
-      <Zodval />
+      {/* <Zodval /> */}
+      {/* <FetchApi /> */}
+      <AXIOS />
     </>
   );
 };
